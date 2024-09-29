@@ -1,9 +1,8 @@
-# EV3-Juk3box-1
+# EV3 Juk3box verze 1 *(03/2022)*
 První verze Juk3boxu (2022)
-1 Popis
 EV3 Jukebox je můj projekt, jehož cílem bylo vytvoření plnohodnotného jukeboxu pomocí Lego Mindstorms EV3 kostky. V tomto repozitáři najdete kompletní dokumentaci a programy.  
 # 1. Základní informace  
-Koncept robota je takový, že po vložení barevné kartičky se uživateli přehraje písnička. Každá barva má svou písničku. Je jich dohromady 5. 
+Koncept robota je takový, že po vložení barevné kartičky se uživateli přehraje písnička. Každá barva má svou písničku. Je jich dohromady 5.
 ## 1.1 Program  
 Je naprogramovaná v NI LabVIEW. Program obsahuje hlavní kostru a podprogramy s písničkama. Ty se spouští po vložení barevné kartičky a stisknutí tlačítka. Po přehrání písničky se kartička vysune.
 ![image](https://github.com/user-attachments/assets/3ccd3016-919b-4a3c-a7b9-038b3d1bcd83)
@@ -28,9 +27,13 @@ Pokud chcete spustit Juk3box na vašem Lego robotovi, připravte si EV3 kostku, 
      <il>EV3, nebo NXT řídící kostka</il>
      <il>Gumový pás</il>
      <il>Malý motor</il>
-     <il>2 libovolné kabely</il>
+     <il>Touch senzor</il>
+     <il>3 libovolné kabely</il>
      <il>Libovolné spojovací dílky</il>
    </ul>
 
-2. Stáhněte si program z main/core/Juk3box_os.vi
+2. Stáhněte si program z core/Juk3box_os.vi a spusťte ho v LabVIEW
+3. Upravte porty a ujistěte se, že všechny písničky jsou na správném místě a je možné je otevřít
+4. Nahrajte program a spusťte ho
+5. Vykoušejte: Vložte papírek s barvou pod barevný senzor, na pás. Stiskněte touch senzor a pokud pás zajede, senzor barvu přečte a začne hrát písnička, vše jste udělali správně.
    
