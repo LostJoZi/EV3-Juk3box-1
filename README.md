@@ -1,5 +1,5 @@
-# EV3 Juk3box verze 1 *(03/2022)*
-První verze Juk3boxu (2022)
+# EV3 Juk3box verze 1 *(03/2023)*
+První verze Juk3boxu (2023)
 EV3 Jukebox je můj projekt, jehož cílem bylo vytvoření plnohodnotného jukeboxu pomocí Lego Mindstorms EV3 kostky. V tomto repozitáři najdete kompletní dokumentaci a programy.  
 # 1. Základní informace  
 Koncept robota je takový, že po vložení barevné kartičky se uživateli přehraje písnička. Každá barva má svou písničku. Je jich dohromady 5.
